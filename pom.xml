@@ -83,7 +83,7 @@
                             <outputDirectory>target/classes/static</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>baza_front/bazaFront/dist/baza-front/browser</directory>
+                                    <directory>baza_front/bazaFront/dist/baza-front</directory>
                                     <filtering>false</filtering>
                                 </resource>
                             </resources>

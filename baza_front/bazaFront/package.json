@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "buildWatch": "ng build --output-path=../../target/classes/static --watch",
+    "buildWatch": "ng build --output-path=../../target/classes/static/ --watch",
     "test": "ng test"
   },
   "private": true,
