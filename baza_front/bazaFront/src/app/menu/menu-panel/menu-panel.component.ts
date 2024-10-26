@@ -1,16 +1,19 @@
 import { Component } from '@angular/core';
-import {RouterLink, RouterLinkActive} from "@angular/router";
+import {RouterLink, RouterLinkActive, RouterModule, RouterOutlet} from "@angular/router";
 
 @Component({
   selector: 'app-menu-panel',
   standalone: true,
   imports: [
     RouterLink,
-    RouterLinkActive
+    RouterLinkActive,
+    RouterModule,
+    RouterOutlet
   ],
   templateUrl: './menu-panel.component.html',
   styleUrl: './menu-panel.component.scss'
 })
+
 export class MenuPanelComponent {
 
 }
