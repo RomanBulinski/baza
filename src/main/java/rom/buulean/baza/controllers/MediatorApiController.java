@@ -25,7 +25,7 @@ public class MediatorApiController {
         ResponseEntity<String> responseFromMediator;
         Map<String, String> jsonResponse = new HashMap<>();
         try {
-            responseFromMediator = restTemplate.getForEntity(MEDIATOR_URL+"/get", String.class);
+            responseFromMediator = restTemplate.getForEntity(MEDIATOR_URL+"/hit-counter", String.class);
             jsonResponse.put("message", responseFromMediator.getBody());
             return new ResponseEntity<>(jsonResponse, HttpStatus.OK);
         } catch (RestClientException  e) {

@@ -19,15 +19,4 @@ import {MatSnackBar, MatSnackBarRef} from "@angular/material/snack-bar";
 export class AppComponent {
   title = 'bazaFront';
 
-  snackBarRef: MatSnackBarRef<any> | undefined;
-
-  constructor(private snackBar: MatSnackBar) {
-  }
-
-  openSnackBar(message: string, action: string) {
-    this.snackBarRef = this.snackBar.open(message, action, {
-      duration: 3000,
-    });
-  }
-
 }
